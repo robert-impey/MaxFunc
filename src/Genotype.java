@@ -94,6 +94,7 @@ public class Genotype {
     /**
      * @return A string to represent the genotype
      */
+    @Override
     public String toString() {
         String s = "x: ";
         for (int i = 0; i < BIN_LENGTH; i++) {
